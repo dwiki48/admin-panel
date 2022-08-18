@@ -1,18 +1,42 @@
-# vite Laravel 9
+# Vite Laravel 9
 
-# How it works
+## Panduan Penggunaan Git
 
-Update the composer
-`composer update`
+* [Download repository]
 
-Create .env from env.example
-`cp .env.example .env `
+## Downloading Repository
 
-Migrate DB using artisan migrate
-`php artisan migrate --seed`
+Download the repository using `git clone`
 
-Install node module then serve
-`npm install && npm run dev`
+```
+git clone https://github.com/dwiki48/admin-panel.git
+```
+
+Update composer
+
+```
+composer update
+```
+
+Buat file .env dari env.example
+
+```
+cp .env.example .env
+```
+
+Migrate DB dengan perintah artisan migrate
+
+```
+php artisan migrate --seed
+```
+
+Install node module dan serve
+
+```
+npm install && npm run dev
+```
 
 Run the app
-`php artisan serve`
+```
+php artisan serve
+```
