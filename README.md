@@ -18,19 +18,19 @@ Update composer
 composer update
 ```
 
-Buat file .env dari env.example
+Create file .env from env.example
 
 ```
 cp .env.example .env
 ```
 
-Migrate DB dengan perintah artisan migrate
+Migrate DB using artisan migrate
 
 ```
 php artisan migrate --seed
 ```
 
-Install node module dan serve
+Install node module then serve
 
 ```
 npm install && npm run dev
