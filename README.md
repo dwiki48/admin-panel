@@ -1,6 +1,6 @@
 # Vite Laravel 9
 
-## Panduan Penggunaan Git
+## How it work
 
 * [Download repository]
 
